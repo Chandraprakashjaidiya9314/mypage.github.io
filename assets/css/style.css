@@ -1,0 +1,524 @@
+/******************************** Simple CPJ ***************************//*https://colorlib.com/preview/#clark*/
+/*.navbar-brand{
+	position: relative;
+    height: 80px;
+    width: 100px;
+    border:2px solid gray;
+}
+.c{
+    font-size: 100px;
+    font-weight: 600;
+    color:lightblue;
+    position: absolute;
+    top:-50px;
+    left:0;
+}
+.p{
+	 font-size: 40px;
+    font-weight: 700;
+    position: absolute;
+	top:0;
+    left:26px;
+}
+.j{
+	font-size: 70px;
+    font-weight: 600;
+    color: #ff7a70;
+    position: absolute;
+    top: -32px;
+    left: 48px;
+}*/
+/******************************* Round ********************************/
+/*.navbar-brand{
+	position: relative;
+    height: 100px;
+    width: 100px;
+    border: 5px solid #ebebeb;
+    border-radius: 50%;
+}
+.c{
+    font-size: 100px;
+    font-weight: 600;
+    color: lightblue;
+    position: absolute;
+    top: -36px;
+    left: 3px;
+}
+.p{
+    font-size: 40px;
+    font-weight: 700;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+.j{
+    font-size: 70px;
+    font-weight: 600;
+    color: #ff7a70;
+    position: absolute;
+    top: -18px;
+    left: 48px;
+}*/
+/*********************************************** Square logo **************************/
+/*.navbar-brand{
+	position: relative;
+    height: 100px;
+    width: 100px;
+    border: 5px solid #fff;
+}
+.c{
+    font-size: 100px;
+    font-weight: 600;
+    color: #acebff;
+    position: absolute;
+    top: -36px;
+    left: 8px;
+}
+.p{
+    font-size: 40px;
+    font-weight: 700;
+    position: absolute;
+    top: 15px;
+    left: 35px;
+}
+.j{
+    font-size: 70px;
+    font-weight: 600;
+    color: #ff7a70;
+    position: absolute;
+    top: -18px;
+    left: 55px;
+}*/
+
+
+/************************************************** Small Size Round **************************/
+html {
+  scroll-behavior: smooth;
+}
+.navbar-brand{
+	position: relative;
+    height: 80px;
+    width: 80px;
+    border: 5px solid #ffbd39;
+    border-radius: 50%;
+}
+.c{
+	font-size: 75px;
+    font-weight: 600;
+    color: lightblue;
+    position: absolute;
+    top: -26px;
+    left: 4px;
+}
+.p{
+    font-size: 35px;
+    font-weight: 700;
+    position: absolute;
+    top: 8px;
+    left: 22px;
+}
+.j{
+    font-size: 55px;
+    font-weight: 600;
+    color: #ff7a70;
+    position: absolute;
+    top: -14px;
+    left: 38px;
+}
+.bg-black{
+	background-color: #000;
+}
+.navbar-nav li{
+	margin:0px 20px;
+}
+.navbar-nav li a{
+    color: #fff!important;
+    font-weight: 400;
+    border-bottom: 3px solid #000;
+    transition: .5s;
+    font-size: 16px;
+}
+.navbar-nav li a:hover{
+	border-bottom: 2px solid #ffbd39!important;
+	color: #ffbd39!important;
+}
+.set-active{
+	border-bottom: 2px solid #ffbd39!important;
+	color: #ffbd39!important;
+}
+/************************************************* Home Section ********************************/
+.set-color{
+	color: #ffbd39;
+}
+.hello h1{
+	font-size: 60px;
+	font-weight: 800;
+}
+.golden-bg{
+	background-color: #ffbd39!important;
+}
+.golden-color{
+	color:#ffbd39!important;
+}
+.fs60{font-size: 60px;}
+.fs40{font-size: 40px;}
+.fs30{font-size: 30px;}
+.fs20{font-size: 20px;}
+.fs18{font-size: 18px;}
+.fs16{font-size: 16px;}
+
+.fw400{font-weight: 400}
+.fw500{font-weight: 500}
+.fw600{font-weight: 600}
+.fw700{font-weight: 700}
+
+.set-ancher1{
+    background-color: #ffbd39;
+    padding: 12px 20px;
+    border-radius: 25px;
+    color: #000;
+    border :2px solid #000;
+}
+.set-ancher1:hover{
+	background-color: #000;
+	border :2px solid #ffbd39;
+	color:#ffbd39;
+	text-decoration: none;
+}
+.set-ancher2{
+	background-color: #000;
+	border :2px solid #ffbd39;
+	color:#ffbd39;
+	border-radius: 25px;
+	display: inline-block;
+	margin-left: 20px;
+	padding: 11px 20px;
+}
+.set-ancher2:hover{
+    background-color: #ffbd39;
+    color: #000;
+    text-decoration: none;
+}
+/*************************************************** About Section ***************************/
+.w-40{
+	width: 40%;
+}
+.w-60{
+	width: 60%;
+}
+.dark-bloack{
+	/*background-color: #191919;*/
+	/*background-color: #11111163;*/
+}
+.about-me{
+    padding: 35px 40px;
+    transition: .9s;
+}
+.about-me:hover{
+	box-shadow: 0px 0px 10px 0px inset #ffbd39;
+	margin-top: -5px;
+}
+/*********************************************** Resume Section ************************************/
+.resume{
+	background-color: #11111150;
+	padding: 30px;
+	transition: 1s;
+}
+.resume:hover{
+	box-shadow: 0px 0px 0px 3px #ffbd39;
+	
+}
+.margin-set{
+	margin-top: 28px;
+}
+/******************************************* Service section *************************************/
+.service1 {
+	padding: 20px 40px;
+	background-color: #11111150;
+	transition: .7s;
+}
+.service1:hover{
+	background-color: #ffbd39;
+}
+.service1 h5{
+	letter-spacing: 5px;
+	transition: .7s;
+}
+.service1:hover h5{
+	color:#000!important;
+}
+.service1 i{
+	font-size: 60px;
+	transition: .7s;
+}
+.service1:hover i{
+	color:#fff!important;
+}
+.underline{
+	height: 1px;
+	width: 45px;
+	background-color: #ffbd39;
+	margin:15px auto;
+}
+.service1:hover .underline{
+	background: #000!important;
+}
+.project{
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+.project-hover{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 100%;
+	height: 100%;
+	width: 100%;
+	border: 3px solid #ffbd39;
+	transition: 1s;
+}
+.project:hover .project-hover{
+	left:0;
+	background-color: #000;
+	opacity: .8;
+}
+.project-text{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	display: none;
+	transition: 1s;
+}
+.project-hover:hover .project-text{
+	display: block;
+}
+
+.bg-black-color{
+    background-color: #111111ed;
+}
+
+/*********************************************************** Blog Section ********************************/
+.blog{
+    position: relative;
+    overflow: hidden;
+}
+.blog img{
+    transform: scale(1);
+    transition: 1s;
+}
+.before-blog:hover .blog img{
+    transform: scale(1.1);
+}
+.date{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 10px;
+    display: inline-block;
+    border:1px solid #ffbd39;
+    text-align: center;
+    color:#fff;
+    background-color: #0009;
+    border-radius: 30px;
+    transition: .5s;
+}
+.before-blog{
+    cursor: pointer;
+
+}
+.before-blog:hover{
+    /*box-shadow: 0px 0px 10px 0px #ffbd39;*/
+}
+.before-blog:hover .date h3,.before-blog:hover .date h5,.before-blog:hover .date h6{
+    color:#fff!important;
+}
+.before-blog:hover .date{
+    border:1px solid #ffbd39;
+    box-shadow: 0px 0px 10px 0px #ffbd39;
+}
+.growth{
+    transition: 1s;
+}
+.before-blog:hover .growth{
+    background-color: #ffbd39;
+    transition: 1s;
+}
+.before-blog:hover .growth h4{
+    color:#000!important;
+}
+.before-blog:hover .growth p{
+    color:#000!important;
+}
+
+/**************************************************************************************************/
+.available{
+    background-image: url('../images/bg_1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hire-me {
+    margin: 120px 0px!important;
+}
+.hire-me a{
+    display: inline-block;
+    background-color: #ffbd39;
+    border-radius: 30px;
+    padding: 12px 50px;
+    color: #000;
+    border:2px solid #ffbd39;
+}
+.hire-me a:hover{
+    border:2px solid #ffbd39;
+    background-color: #000;
+    color:#ffbd39;
+    text-decoration: none;
+}
+.contact-details{
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #111111ed;
+    margin: 0 auto;
+    transition: .5s;
+    cursor: pointer;
+}
+.contact-details:hover{
+    background-color:#ffbd39; 
+}
+.contact-details i{
+    padding: 40px;
+    transition: .5s;
+    cursor: pointer;
+}
+.contact-details i:hover{
+    color:#000!important;
+}
+.giving-margin{
+    margin-top: 150px;
+}
+.message-details a{
+    display: inline-block;
+    background-color: #ffbd39;
+    border-radius: 30px;
+    padding: 15px 60px;
+    color: #000;
+    border:2px solid #ffbd39;
+}
+.message-details a:hover{
+    border:2px solid #ffbd39;
+    background-color: #000;
+    color:#ffbd39;
+    text-decoration: none;
+}
+.message-details{
+    padding: 50px 30px;
+    border:2px solid #ffbd39;
+}
+.Links{
+    line-height: 40px;
+
+}
+.Links li a{
+    transition: .5s; 
+}
+.Links li a:hover{
+    text-decoration: none;
+    color:#ffbd39!important;
+    padding-left: 10px;
+}
+.set-width-20{
+    width: 20%;
+}
+.set-width-80{
+    width: 80%;
+}
+.about ul li a i{
+    color:#000;
+}
+.about ul li {
+    height: 50px;
+    width: 50px;
+    padding: 12px 8px;
+    border-radius: 50%;
+    background-color: #ffbd39;
+}
+.sticky {
+        position: fixed;
+        width: 100%;
+        top: -70px;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        transform: translateY(70px);
+        transition: transform 500ms ease, background 500ms ease;
+        -webkit-transition: transform 500ms ease, background 500ms ease;
+        box-shadow: 0px 3px 16px 0px rgba(0,0,0,0.1);
+    }
+@media(max-width: 767px){
+	.hello h1 {
+	    font-size: 42px;
+	}
+    .bg-black{
+        padding-top: 0px!important;
+    }
+    .bg-black .container{
+        margin-top: 0px!important;
+        margin-bottom: 0px!important;
+    }
+    .about-me {
+        padding: 35px 15px;
+    }
+    .fs20 {
+        font-size: 15px;
+    }
+    .fs60 {
+        font-size: 40px;
+    }
+    .message-details {
+        padding: 12px 10px;
+    }
+    
+    .navbar-brand {
+      position: relative;
+      height: 65px;
+      width: 65px;
+      border: 5px solid #ffbd39;
+      border-radius: 50%;
+    }
+    .c {
+        font-size: 60px;
+        font-weight: 600;
+        color: lightblue;
+        position: absolute;
+        top: -22px;
+        left: 4px;
+    }
+    .p {
+        font-size: 25px;
+        font-weight: 700;
+        position: absolute;
+        top: 5px;
+        left: 22px;
+    }
+    .j {
+        font-size: 40px;
+        font-weight: 600;
+        color: #ff7a70;
+        position: absolute;
+        top: -10px;
+        left: 33px;
+    }
+    .resume {
+        padding: 5px;
+        text-align: justify;
+    }
+    .footer h3{
+        padding-left: 0!important;
+    }
+    .fs40 {
+    font-size: 30px;
+}
+}
